@@ -1,0 +1,30 @@
+.reel-feed {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.reel-feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed-state {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 32px;
+}
+
+.feed-state h2 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+}
+
+.feed-state p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.68);
+  max-width: 460px;
+  line-height: 1.6;
+}

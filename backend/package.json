@@ -1,0 +1,17 @@
+{
+  "name": "skillcase-internship-backend",
+  "version": "1.0.0",
+  "description": "MVP backend for the Skillcase Internship Assessment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  }
+}
